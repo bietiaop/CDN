@@ -1,21 +1,13 @@
-* {
-	
-font-family: 'Noto Sans SC','Ubuntu',sans-serif;
-
-}
-
-
-
-html,body {
-	font-family: 'Noto Sans SC','Ubuntu',sans-serif;
-	
-}
-
-
-
 .entry-title {
-	font-family: 'ZCOOL XiaoWei','Ubuntu'，sans-serif;
+	font-family: 'ZCOOL XiaoWei','Ubuntu'，sans-seri;
 }
+* {
+	font-family: 'Noto Sans SC','Ubuntu',sans-ser;
+}
+html,body {
+	font-family: 'Noto Sans SC','Ubuntu',sans-serif	
+}
+
 /*
 Google Fonts
 font-family: 'Noto Sans SC', sans-serif;  思源黑体
