@@ -1,9 +1,18 @@
+* {
+	
+font-family: 'Noto Sans SC','Ubuntu',sans-serif;
+
+}
+
+
+
 html,body {
 	font-family: 'Noto Sans SC','Ubuntu',sans-serif;
+	
 }
-* {
-	font-family: 'Noto Sans SC','Ubuntu',sans-serif;
-}
+
+
+
 .entry-title {
 	font-family: 'ZCOOL XiaoWei','Ubuntu'，sans-serif;
 }
