@@ -1,0 +1,38 @@
+@charset "UTF-8";
+@import "https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;300;400;500;700;900&family=Noto+Serif+SC:wght@200;300;400;500;600;700;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Zhi+Mang+Xing&family=Dancing+Script&family=Raleway&family=Open+Sans&display=swap";
+@font-face {
+    font-family: "PingFang";
+    src: url("//cdn.jsdelivr.net/gh/bietiaop/CDN@master/fonts/PingFang/sim/PingFang Regular.ttf");
+}
+
+@font-face {
+    font-family: "PingFang Bold";
+    src: url("//cdn.jsdelivr.net/gh/bietiaop/CDN@master/fonts/PingFang/sim/PingFang Bold.ttf");
+}
+
+@font-face {
+    font-family: "PingFang Light";
+    src: url("//cdn.jsdelivr.net/gh/bietiaop/CDN@master/fonts/PingFang/sim/PingFang Light.ttf");
+}
+
+@font-face {
+    font-family: "PingFang Heavy";
+    src: url("//cdn.jsdelivr.net/gh/bietiaop/CDN@master/fonts/PingFang/sim/PingFang Heavy.ttf");
+}
+
+@font-face {
+    font-family: "PingFang ExtraLight";
+    src: url("//cdn.jsdelivr.net/gh/bietiaop/CDN@master/fonts/PingFang/sim/PingFang ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: "PingFang Medium";
+    src: url("//cdn.jsdelivr.net/gh/bietiaop/CDN@master/fonts/PingFang/sim/PingFang Medium.ttf");
+}
+
+@font-face {
+    font-family: "lty";
+    src: url("/fonts/lty.woff2") format("woff2"), url("/fonts/lty.woff") format("woff"), url("/fonts/lty.ttf") format("truetype"), url("/fonts/lty.eot") format("embedded-opentype"), url("/fonts/lty.svg") format("svg"), url("/fonts/lty.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}

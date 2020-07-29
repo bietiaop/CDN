@@ -1,0 +1,153 @@
+@charset "UTF-8";
+@import "fonts.css";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans","Ubuntu", "苹方", "Noto Sans SC", "等线", "microsoft yahei", sans-serif;
+    outline: none;
+}
+h3 small {
+    color: rgb(65, 65, 65);
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: url("http://api.btstu.cn/sjbz/?lx=dongman") center fixed no-repeat;
+    background-size: cover;
+    transition: 0.3s;
+    overflow-x: hidden;
+}
+
+.player {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+.aplayer {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100vw;
+    font-family: "Raleway","Open Sans","Ubuntu", "苹方", "Noto Sans SC", "等线", "microsoft yahei", sans-serif;
+    opacity: 0.85;
+}
+.yiyan {
+    width: 80vw;
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+    background: inherit;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 30px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 50px rgba(0,0,0,0.3);
+}
+.look-for-me-text {
+    width: 80vw;
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+    background: inherit;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 50px rgba(0,0,0,0.3);
+}
+.yiyan::before,.look-for-me-text::before {
+    content: "";
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+    background: inherit;
+    box-shadow: inset 0 0 0 500px rgba(255,255,255,0.3);
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    z-index: -1;
+    filter: blur(6px);
+    overflow: hidden;
+}
+#yiyan {
+    font-family: "Dancing Script","Noto Serif SC","Open Sans","Ubuntu", "苹方", "Noto Sans SC", "等线", "microsoft yahei", sans-serif !important;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 0px 0px 5px #00d9ff,
+    0px 0px 10px #b7e6ff,
+    0px 0px 20px #ffffff;
+}
+#yiyan::before {
+    content: "『";
+}
+#yiyan::after {
+    content: "』";
+}
+#author {
+    text-align: right;
+    text-shadow: 0px 1px 0px #00d9ff,
+    0px -1px 0px #00d9ff,
+    1px 0px 0px #00d9ff,
+    -1px 0px 0px #00d9ff;
+    color: white;
+}
+.contact {
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 50px rgba(0,0,0,0.3);
+}
+.qrcode {
+    width: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 10px;
+}
+.qrcode button {
+    width: 100%;
+    border: 0;
+    margin: 0;
+    background: rgb(9, 183, 236);
+    padding: 10px 0;
+    color: white;
+    transition: 0.3s;
+}
+.qrcode button:hover {
+    background: rgb(4, 168, 218);
+    transition: 0.3s;
+}
+.qrcode img {
+    width: 100%;
+}
+.email {
+    font-size: 0.8rem;
+    text-align: center;
+}
+.email i {
+    font-size: 4.5rem;
+}
+.email a,.email a:visited {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+.email a:hover {
+    color: rgb(0, 140, 255);
+    transition: 0.3s;
+}
+@media screen and (max-width: 600px) {
+    .container {
+        background: url("http://api.btstu.cn/sjbz/?lx=m_dongman") center fixed no-repeat;
+        background-size: cover;
+        transition: 0.3s;
+    }
+    .yiyan,.look-for-me-text,.contact {
+        width: 90vw;
+    }
+}
